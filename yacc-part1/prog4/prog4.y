@@ -4,8 +4,10 @@
 #include<stdlib.h>
 %}
 %%
-S:'a'S'b'
+S:'a'A'b'
+A:'a'A
 |
+'a''a''a''a'
 ;
 %%
 
