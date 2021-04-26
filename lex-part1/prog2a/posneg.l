@@ -22,8 +22,8 @@ DIGIT [0-9]
   
 \+?{DIGIT}+             postiveno++; 
 -{DIGIT}+               negtiveno++; 
-(\+?{DIGIT}*\.{DIGIT}+)|(-{DIGIT}+\/-[1-9]+)|({DIGIT}+\/[1-9]+) positivefractions++; 
-(-{DIGIT}*\.{DIGIT}+)|(\+?{DIGIT}+\/-[1-9]+)|(-{DIGIT}+\/[1-9]+)    negativefractions++; 
+(\+?{DIGIT}*\.{DIGIT}+)|(-{DIGIT}+\/-[1-9]{DIGIT}+)|({DIGIT}+\/[1-9]{DIGIT}+) positivefractions++; 
+(-{DIGIT}*\.{DIGIT}+)|(\+?{DIGIT}+\/-[1-9]{DIGIT}+)|(-{DIGIT}+\/[1-9]{DIGIT}+)    negativefractions++; 
 \+?{DIGIT}*\/[0]*  {error++;}
 . ;    
 %% 
