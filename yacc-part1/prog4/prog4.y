@@ -1,13 +1,13 @@
-	%{
+%{
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
 %}
 %%
-S:'a'A'b'
+S:A'b'
 A:'a'A
 |
-'a''a''a''a'
+'a''a''a''a''a'
 ;
 %%
 
