@@ -62,13 +62,8 @@
 
 
 /* Copy the first part of user declarations.  */
-#line 1 "ambmplusncn.y" /* yacc.c:339  */
 
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
-
-#line 72 "y.tab.c" /* yacc.c:339  */
+#line 67 "y.tab.c" /* yacc.c:339  */
 
 # ifndef YY_NULLPTR
 #  if defined __cplusplus && 201103L <= __cplusplus
@@ -115,7 +110,7 @@ int yyparse (void);
 
 /* Copy the second part of user declarations.  */
 
-#line 119 "y.tab.c" /* yacc.c:358  */
+#line 114 "y.tab.c" /* yacc.c:358  */
 
 #ifdef short
 # undef short
@@ -412,7 +407,7 @@ static const yytype_uint8 yytranslate[] =
   /* YYRLINE[YYN] -- Source line where rule number YYN was defined.  */
 static const yytype_uint8 yyrline[] =
 {
-       0,     7,     7,     8,    10,    11,    13,    14
+       0,     2,     2,     3,     5,     6,     8,     9
 };
 #endif
 
@@ -1183,7 +1178,7 @@ yyreduce:
   switch (yyn)
     {
       
-#line 1187 "y.tab.c" /* yacc.c:1646  */
+#line 1182 "y.tab.c" /* yacc.c:1646  */
       default: break;
     }
   /* User semantic actions sometimes alter yychar, and that requires
@@ -1411,7 +1406,7 @@ yyreturn:
 #endif
   return yyresult;
 }
-#line 17 "ambmplusncn.y" /* yacc.c:1906  */
+#line 12 "ambmplusncn.y" /* yacc.c:1906  */
 
 
 int main()
