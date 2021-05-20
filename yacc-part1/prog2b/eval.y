@@ -2,7 +2,7 @@
 #include <stdio.h>
 %}
 
-%token NUMBER ID
+%token NUMBER 
 // setting  precedence
 //associativity of operators bottom to up 
 %left '+' '-'
@@ -18,12 +18,12 @@ T :
 	T '+' T { $$ = $1 + $3; }
 	| T '-' T { $$ = $1 - $3; }
 	| T '*' T { $$ = $1 * $3; }
-	| T '/' T { $$ = $1 / $3; }
+	| T '/' T { if($3==0){yyerror();}
+	          else{$$ = $1 / $3;}
+	                         }
 	| '-' NUMBER { $$ = -$2; }
-	| '-' ID { $$ = -$2; }
 	| '(' T ')' { $$ = $2; }
 	| NUMBER { $$ = $1; }
-	| ID { $$ = $1; };
 %%
 
 int main() {

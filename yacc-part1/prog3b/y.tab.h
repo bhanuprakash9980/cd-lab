@@ -45,11 +45,55 @@ extern int yydebug;
 # define YYTOKENTYPE
   enum yytokentype
   {
-    NUMBER = 258
+    INT = 258,
+    FLOAT = 259,
+    CHAR = 260,
+    DOUBLE = 261,
+    VOID = 262,
+    FOR = 263,
+    WHILE = 264,
+    IF = 265,
+    ELSE = 266,
+    PRINTF = 267,
+    STRUCT = 268,
+    NUM = 269,
+    ID = 270,
+    INCLUDE = 271,
+    DOT = 272,
+    AND = 273,
+    OR = 274,
+    LE = 275,
+    GE = 276,
+    EQ = 277,
+    NE = 278,
+    LT = 279,
+    GT = 280
   };
 #endif
 /* Tokens.  */
-#define NUMBER 258
+#define INT 258
+#define FLOAT 259
+#define CHAR 260
+#define DOUBLE 261
+#define VOID 262
+#define FOR 263
+#define WHILE 264
+#define IF 265
+#define ELSE 266
+#define PRINTF 267
+#define STRUCT 268
+#define NUM 269
+#define ID 270
+#define INCLUDE 271
+#define DOT 272
+#define AND 273
+#define OR 274
+#define LE 275
+#define GE 276
+#define EQ 277
+#define NE 278
+#define LT 279
+#define GT 280
 
 /* Value type.  */
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
