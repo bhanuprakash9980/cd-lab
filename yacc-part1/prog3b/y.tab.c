@@ -1625,4 +1625,5 @@ int main(int argc, char *argv[])
 
 yyerror(char *s) {
     printf("%d : %s %s\n", yylineno, s, yytext );
+	exit(0);
 }

@@ -1,7 +1,3 @@
-%{
-#include "y.tab.h"
-%}
-
 alpha [a-zA-Z]
 digit [0-9]
 

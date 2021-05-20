@@ -492,10 +492,7 @@ int yy_flex_debug = 0;
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
 #line 1 "prog3b.l"
-#line 2 "prog3b.l"
-#include "y.tab.h"
-#line 498 "lex.yy.c"
-#line 499 "lex.yy.c"
+#line 496 "lex.yy.c"
 
 #define INITIAL 0
 
@@ -715,9 +712,9 @@ YY_DECL
 		}
 
 	{
-#line 8 "prog3b.l"
+#line 4 "prog3b.l"
 
-#line 721 "lex.yy.c"
+#line 718 "lex.yy.c"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -777,142 +774,142 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 9 "prog3b.l"
+#line 5 "prog3b.l"
 ;
 	YY_BREAK
 case 2:
 /* rule 2 can match eol */
 YY_RULE_SETUP
-#line 10 "prog3b.l"
+#line 6 "prog3b.l"
 { yylineno = yylineno + 1;}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 11 "prog3b.l"
+#line 7 "prog3b.l"
 return INT;
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 12 "prog3b.l"
+#line 8 "prog3b.l"
 return FLOAT;
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 13 "prog3b.l"
+#line 9 "prog3b.l"
 return CHAR;
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 14 "prog3b.l"
+#line 10 "prog3b.l"
 return VOID;
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 15 "prog3b.l"
+#line 11 "prog3b.l"
 return DOUBLE;
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 16 "prog3b.l"
+#line 12 "prog3b.l"
 return FOR;
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 17 "prog3b.l"
+#line 13 "prog3b.l"
 return WHILE;
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 18 "prog3b.l"
+#line 14 "prog3b.l"
 return IF;
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 19 "prog3b.l"
+#line 15 "prog3b.l"
 return ELSE;
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 20 "prog3b.l"
+#line 16 "prog3b.l"
 return PRINTF;
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 21 "prog3b.l"
+#line 17 "prog3b.l"
 return STRUCT;
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 22 "prog3b.l"
+#line 18 "prog3b.l"
 ;
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 23 "prog3b.l"
+#line 19 "prog3b.l"
 return NUM;
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 24 "prog3b.l"
+#line 20 "prog3b.l"
 return ID;
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 25 "prog3b.l"
+#line 21 "prog3b.l"
 return LE;
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 26 "prog3b.l"
+#line 22 "prog3b.l"
 return GE;
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
-#line 27 "prog3b.l"
+#line 23 "prog3b.l"
 return EQ;
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
-#line 28 "prog3b.l"
+#line 24 "prog3b.l"
 return NE;
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
-#line 29 "prog3b.l"
+#line 25 "prog3b.l"
 return GT;
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
-#line 30 "prog3b.l"
+#line 26 "prog3b.l"
 return LT;
 	YY_BREAK
 case 23:
 YY_RULE_SETUP
-#line 31 "prog3b.l"
+#line 27 "prog3b.l"
 return DOT;
 	YY_BREAK
 case 24:
 YY_RULE_SETUP
-#line 32 "prog3b.l"
+#line 28 "prog3b.l"
 ;
 	YY_BREAK
 case 25:
 /* rule 25 can match eol */
 YY_RULE_SETUP
-#line 33 "prog3b.l"
+#line 29 "prog3b.l"
 ;
 	YY_BREAK
 case 26:
 YY_RULE_SETUP
-#line 34 "prog3b.l"
+#line 30 "prog3b.l"
 return yytext[0];
 	YY_BREAK
 case 27:
 YY_RULE_SETUP
-#line 35 "prog3b.l"
+#line 31 "prog3b.l"
 ECHO;
 	YY_BREAK
-#line 916 "lex.yy.c"
+#line 913 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1920,5 +1917,5 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 35 "prog3b.l"
+#line 31 "prog3b.l"
 
